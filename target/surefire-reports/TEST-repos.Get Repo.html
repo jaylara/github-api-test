@@ -152,43 +152,43 @@
 <div class="scenario-steps">
 <div class="step-row">
 <div class="step-cell passed">And def enpointRepo = '/repos/&lt;user_name&gt;/&lt;repo_name&gt;'</div>
-<div class="time-cell passed">0.140824</div>
+<div class="time-cell passed">0.171086</div>
 </div>
-<div class="preformatted">17:51:44.877 INFO  - karate.env system property was: dev &#13;
+<div class="preformatted">18:29:38.229 INFO  - karate.env system property was: dev &#13;
 </div>
 <div class="step-row">
 <div class="step-cell passed">* def userName = "jaylara"</div>
-<div class="time-cell passed">0.003297</div>
+<div class="time-cell passed">0.003637</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* def repoName = "jaydata"</div>
-<div class="time-cell passed">0.003871</div>
+<div class="time-cell passed">0.003033</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">Given url cApiUrl</div>
-<div class="time-cell passed">0.000145</div>
+<div class="time-cell passed">0.00015</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And replace enpointRepo.user_name = userName</div>
-<div class="time-cell passed">0.000426</div>
+<div class="time-cell passed">0.0004</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And replace enpointRepo.repo_name = repoName</div>
-<div class="time-cell passed">0.000128</div>
+<div class="time-cell passed">0.00019</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And path enpointRepo</div>
-<div class="time-cell passed">0.000894</div>
+<div class="time-cell passed">0.001159</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header Accept = cHeaderAccept</div>
-<div class="time-cell passed">0.000986</div>
+<div class="time-cell passed">0.000761</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method GET</div>
-<div class="time-cell passed">1.328122</div>
+<div class="time-cell passed">1.712426</div>
 </div>
-<div class="preformatted">17:51:45.799 DEBUG - 
+<div class="preformatted">18:29:39.394 DEBUG - 
 1 &gt; GET https://api.github.com/repos/jaylara/jaydata
 1 &gt; Accept: application/vnd.github.v3+json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -196,14 +196,14 @@
 1 &gt; Host: api.github.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_152)
 &#13;
-17:51:46.329 DEBUG - 
+18:29:40.059 DEBUG - 
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
 1 &lt; Cache-Control: public, max-age=60, s-maxage=60
 1 &lt; Content-Security-Policy: default-src 'none'
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Fri, 22 Jun 2018 22:51:46 GMT
+1 &lt; Date: Fri, 22 Jun 2018 23:29:40 GMT
 1 &lt; ETag: W/"514bf38afb589eb978a0733c4a8f4016"
 1 &lt; Last-Modified: Mon, 13 Nov 2017 22:47:28 GMT
 1 &lt; Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
@@ -215,16 +215,16 @@
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Frame-Options: deny
 1 &lt; X-GitHub-Media-Type: github.v3; format=json
-1 &lt; X-GitHub-Request-Id: D4F4:6AD0:12F3D2B:283DEE2:5B2D7D82
+1 &lt; X-GitHub-Request-Id: E1CB:6AD0:132298C:28A32C6:5B2D8663
 1 &lt; X-RateLimit-Limit: 60
-1 &lt; X-RateLimit-Remaining: 55
-1 &lt; X-RateLimit-Reset: 1529710082
-1 &lt; X-Runtime-rack: 0.040745
+1 &lt; X-RateLimit-Remaining: 59
+1 &lt; X-RateLimit-Reset: 1529713780
+1 &lt; X-Runtime-rack: 0.036913
 1 &lt; X-XSS-Protection: 1; mode=block
 {"id":110597338,"node_id":"MDEwOlJlcG9zaXRvcnkxMTA1OTczMzg=","name":"jaydata","full_name":"jaylara/jaydata","owner":{"login":"jaylara","id":31249568,"node_id":"MDQ6VXNlcjMxMjQ5NTY4","avatar_url":"https://avatars1.githubusercontent.com/u/31249568?v=4","gravatar_id":"","url":"https://api.github.com/users/jaylara","html_url":"https://github.com/jaylara","followers_url":"https://api.github.com/users/jaylara/followers","following_url":"https://api.github.com/users/jaylara/following{/other_user}","gists_url":"https://api.github.com/users/jaylara/gists{/gist_id}","starred_url":"https://api.github.com/users/jaylara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jaylara/subscriptions","organizations_url":"https://api.github.com/users/jaylara/orgs","repos_url":"https://api.github.com/users/jaylara/repos","events_url":"https://api.github.com/users/jaylara/events{/privacy}","received_events_url":"https://api.github.com/users/jaylara/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/jaylara/jaydata","description":"A centralized location for all of my APIs","fork":false,"url":"https://api.github.com/repos/jaylara/jaydata","forks_url":"https://api.github.com/repos/jaylara/jaydata/forks","keys_url":"https://api.github.com/repos/jaylara/jaydata/keys{/key_id}","collaborators_url":"https://api.github.com/repos/jaylara/jaydata/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/jaylara/jaydata/teams","hooks_url":"https://api.github.com/repos/jaylara/jaydata/hooks","issue_events_url":"https://api.github.com/repos/jaylara/jaydata/issues/events{/number}","events_url":"https://api.github.com/repos/jaylara/jaydata/events","assignees_url":"https://api.github.com/repos/jaylara/jaydata/assignees{/user}","branches_url":"https://api.github.com/repos/jaylara/jaydata/branches{/branch}","tags_url":"https://api.github.com/repos/jaylara/jaydata/tags","blobs_url":"https://api.github.com/repos/jaylara/jaydata/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/jaylara/jaydata/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/jaylara/jaydata/git/refs{/sha}","trees_url":"https://api.github.com/repos/jaylara/jaydata/git/trees{/sha}","statuses_url":"https://api.github.com/repos/jaylara/jaydata/statuses/{sha}","languages_url":"https://api.github.com/repos/jaylara/jaydata/languages","stargazers_url":"https://api.github.com/repos/jaylara/jaydata/stargazers","contributors_url":"https://api.github.com/repos/jaylara/jaydata/contributors","subscribers_url":"https://api.github.com/repos/jaylara/jaydata/subscribers","subscription_url":"https://api.github.com/repos/jaylara/jaydata/subscription","commits_url":"https://api.github.com/repos/jaylara/jaydata/commits{/sha}","git_commits_url":"https://api.github.com/repos/jaylara/jaydata/git/commits{/sha}","comments_url":"https://api.github.com/repos/jaylara/jaydata/comments{/number}","issue_comment_url":"https://api.github.com/repos/jaylara/jaydata/issues/comments{/number}","contents_url":"https://api.github.com/repos/jaylara/jaydata/contents/{+path}","compare_url":"https://api.github.com/repos/jaylara/jaydata/compare/{base}...{head}","merges_url":"https://api.github.com/repos/jaylara/jaydata/merges","archive_url":"https://api.github.com/repos/jaylara/jaydata/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/jaylara/jaydata/downloads","issues_url":"https://api.github.com/repos/jaylara/jaydata/issues{/number}","pulls_url":"https://api.github.com/repos/jaylara/jaydata/pulls{/number}","milestones_url":"https://api.github.com/repos/jaylara/jaydata/milestones{/number}","notifications_url":"https://api.github.com/repos/jaylara/jaydata/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/jaylara/jaydata/labels{/name}","releases_url":"https://api.github.com/repos/jaylara/jaydata/releases{/id}","deployments_url":"https://api.github.com/repos/jaylara/jaydata/deployments","created_at":"2017-11-13T20:18:49Z","updated_at":"2017-11-13T22:47:28Z","pushed_at":"2017-12-03T21:59:58Z","git_url":"git://github.com/jaylara/jaydata.git","ssh_url":"git@github.com:jaylara/jaydata.git","clone_url":"https://github.com/jaylara/jaydata.git","svn_url":"https://github.com/jaylara/jaydata","homepage":null,"size":71,"stargazers_count":0,"watchers_count":0,"language":"JavaScript","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","network_count":0,"subscribers_count":0}
 &#13;
-17:51:46.331 DEBUG - response time in milliseconds: 1237&#13;
-17:51:46.401 INFO  - response:
+18:29:40.062 DEBUG - response time in milliseconds: 1566&#13;
+18:29:40.174 INFO  - response:
 {
   "id": 110597338,
   "node_id": "MDEwOlJlcG9zaXRvcnkxMTA1OTczMzg=",
@@ -324,15 +324,15 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.000967</div>
+<div class="time-cell passed">0.003339</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And def savedResponse = response</div>
-<div class="time-cell passed">0.000113</div>
+<div class="time-cell passed">0.000705</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And def repoInfo =</div>
-<div class="time-cell passed">0.028878</div>
+<div class="time-cell passed">0.04547</div>
 </div>
 <div class="preformatted">{
 	id: '#(savedResponse.id)',
@@ -340,7 +340,7 @@
 }</div>
 <div class="step-row">
 <div class="step-cell passed">And def ownerInfo =</div>
-<div class="time-cell passed">0.019728</div>
+<div class="time-cell passed">0.014466</div>
 </div>
 <div class="preformatted">{
 	id: '#(savedResponse.owner.id)',
@@ -348,44 +348,44 @@
 }</div>
 <div class="step-row">
 <div class="step-cell passed">And match repoInfo.name == repoName</div>
-<div class="time-cell passed">0.004853</div>
+<div class="time-cell passed">0.00183</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match ownerInfo.login == userName</div>
-<div class="time-cell passed">0.000285</div>
+<div class="time-cell passed">0.00036</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match savedResponse.owner.login == userName</div>
-<div class="time-cell passed">0.001286</div>
+<div class="time-cell passed">0.000991</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match savedResponse.name == repoName</div>
-<div class="time-cell passed">0.000529</div>
+<div class="time-cell passed">0.000532</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">And def avatar =  "https://avatars1.githubusercontent.com/u/" + ownerInfo.id</div>
-<div class="time-cell passed">0.011131</div>
+<div class="step-cell passed">And def expected_avatar_url =  "https://avatars1.githubusercontent.com/u/" + ownerInfo.id</div>
+<div class="time-cell passed">0.008228</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">And match savedResponse.owner.avatar_url contains avatar</div>
-<div class="time-cell passed">0.000398</div>
+<div class="step-cell passed">And match savedResponse.owner.avatar_url contains expected_avatar_url</div>
+<div class="time-cell passed">0.000414</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">Given url avatar</div>
-<div class="time-cell passed">0.000162</div>
+<div class="step-cell passed">Given url savedResponse.owner.avatar_url</div>
+<div class="time-cell passed">0.005138</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method GET</div>
-<div class="time-cell passed">0.235508</div>
+<div class="time-cell passed">0.189718</div>
 </div>
-<div class="preformatted">17:51:46.483 DEBUG - 
-2 &gt; GET https://avatars1.githubusercontent.com/u/31249568
+<div class="preformatted">18:29:40.276 DEBUG - 
+2 &gt; GET https://avatars1.githubusercontent.com/u/31249568?v=4
 2 &gt; Accept-Encoding: gzip,deflate
 2 &gt; Connection: Keep-Alive
 2 &gt; Host: avatars1.githubusercontent.com
 2 &gt; User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_152)
 &#13;
-17:51:46.661 DEBUG - 
+18:29:40.433 DEBUG - 
 2 &lt; 200
 2 &lt; Accept-Ranges: bytes
 2 &lt; Access-Control-Allow-Origin: *
@@ -394,11 +394,11 @@
 2 &lt; Content-Length: 23308
 2 &lt; Content-Security-Policy: default-src 'none'
 2 &lt; Content-Type: image/jpeg
-2 &lt; Date: Fri, 22 Jun 2018 22:51:46 GMT
+2 &lt; Date: Fri, 22 Jun 2018 23:29:40 GMT
 2 &lt; Etag: "00a3a10f1dbb82c5378286ffcb5806c478f68fa5"
-2 &lt; Expires: Fri, 22 Jun 2018 22:56:46 GMT
+2 &lt; Expires: Fri, 22 Jun 2018 23:34:40 GMT
 2 &lt; Last-Modified: Fri, 01 Dec 2017 18:11:06 GMT
-2 &lt; Source-Age: 1430
+2 &lt; Source-Age: 5585
 2 &lt; Strict-Transport-Security: max-age=31557600
 2 &lt; Timing-Allow-Origin: https://github.com
 2 &lt; Vary: Authorization,Accept-Encoding
@@ -406,14 +406,14 @@
 2 &lt; X-Cache: HIT
 2 &lt; X-Cache-Hits: 1
 2 &lt; X-Content-Type-Options: nosniff
-2 &lt; X-Fastly-Request-ID: 874bf54a7aa8c30ce20e9adb619402ac5aeeb1ec
+2 &lt; X-Fastly-Request-ID: d5be9c21719167a63b89380add9d7e540b9516c7
 2 &lt; X-Frame-Options: deny
-2 &lt; X-GitHub-Request-Id: B80E:0B0D:AE99C:B9FC4:5B2D77EC
+2 &lt; X-GitHub-Request-Id: 3604:0B0C:43F49:48D92:5B2D7093
 2 &lt; X-Served-By: cache-dfw18636-DFW
-2 &lt; X-Timer: S1529707907.779176,VS0,VE1
+2 &lt; X-Timer: S1529710181.644977,VS0,VE2
 2 &lt; X-Xss-Protection: 1; mode=block
 &#13;
-17:51:46.694 DEBUG - response time in milliseconds: 213&#13;
+18:29:40.449 DEBUG - response time in milliseconds: 174&#13;
 </div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
@@ -421,7 +421,7 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match responseHeaders['Content-Type'][0] == "image/jpeg"</div>
-<div class="time-cell passed">0.005895</div>
+<div class="time-cell passed">0.006873</div>
 </div>
 </div>
 </div>

@@ -10,9 +10,9 @@ Suppose that you worked with a team that was tasked with implementing this speci
 
 ## Instructions
 1. Please select an endpoint to test and implement a test suite for that endpoint.
-- You may choose a tech stack of your choice for the tests.
-- Provide the URL of a public Git repo that contains the tests.
-- Include documentation in your repository that contains your written answers to the questions above.
+2. You may choose a tech stack of your choice for the tests.
+3. Provide the URL of a public Git repo that contains the tests.
+4. Include documentation in your repository that contains your written answers to the questions above.
 
 ## Solution
 
@@ -31,13 +31,15 @@ Suppose that you worked with a team that was tasked with implementing this speci
     - Correct Data Formats (Dates, Numbers, Strings)
     - Injection
 
+
 ### How would you go about tackling the QA for this work?
 - Assumptions: Environment is setup, folder structure is good
 - Read the documentation for the API endpoint
-- Understand request requirements
-- Understand response data
+- Understand request requirements (inputs)
+- Understand response data (outputs)
 - Try to break the API - _I won't do much of that since this is a GET endpoint and I'm using account as an example_
--
+- If more endpoints are in scope, and team exists, split up responsibility
+
 
 ### What sort of tests would be worth describing or worth automating?
 - Data Validation: Each property accepts valid values and rejects invalid values
@@ -67,3 +69,13 @@ Suppose that you worked with a team that was tasked with implementing this speci
 
 ### GitHub Repo (for sharing and caring)
 https://github.com/jaylara/github-api-test
+
+#### Important files
+- karate-config.js: https://github.com/jaylara/github-api-test/blob/master/src/test/java/karate-config.js
+- ReposTestRunner.java: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/ReposTestRunner.java
+- Get Repo.feature: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/Get%20Repo.feature
+
+### How to Run
+1. Cloned git repo locally.
+2. Import into Eclipse as a Maven project. (allow some time for initialization)
+3. Run a test runner as a JUnit Test
