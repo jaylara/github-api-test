@@ -71,9 +71,10 @@ Suppose that you worked with a team that was tasked with implementing this speci
 https://github.com/jaylara/github-api-test
 
 #### Important files
-- karate-config.js: https://github.com/jaylara/github-api-test/blob/master/src/test/java/karate-config.js
-- ReposTestRunner.java: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/ReposTestRunner.java
-- Get Repo.feature: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/Get%20Repo.feature
+- Config File: karate-config.js: https://github.com/jaylara/github-api-test/blob/master/src/test/java/karate-config.js
+- Test Runner: ReposTestRunner.java: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/ReposTestRunner.java
+- Tests: Get Repo.feature: https://github.com/jaylara/github-api-test/blob/master/src/test/java/repos/Get%20Repo.feature
+- Reusable Feature: fetchRepo.feature: https://github.com/jaylara/github-api-test/blob/master/src/test/java/resusable/features/fetchRepo.feature
 
 ### How to Run
 1. Cloned git repo locally.
