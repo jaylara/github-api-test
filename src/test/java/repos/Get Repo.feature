@@ -1,4 +1,4 @@
-
+@jay_test
 Feature: GitHub API Test - Get Repo
 
 Background: GitHub API Test - Get Repo
@@ -10,7 +10,6 @@ Background: GitHub API Test - Get Repo
 	* def DB = read('classpath:repos/data/jaylara_repo.json')
 	
 
-@jay_test
 Scenario: Test Get Repo Information - Valid Root Fields + Non-Url Owner Fields
 	
 	# Do it this way each time, or...
@@ -73,6 +72,7 @@ Scenario: Test Get Repo Information - Valid Owner Avatar Image
 	Then status 200
 	And match responseHeaders['Content-Type'][0] == "image/jpeg"
 
+
 Scenario Outline:  Test Get Repo Information - Valid Owner Url Fields - API Urls 
 	#During a scenario outline, I only wanted to touch the endpoint once. 
 	#Otherwise, for each example executed, the endpoint would touched. Don't want risk being blocked
@@ -133,9 +133,6 @@ Scenario: Test Get Repo Information - Invalid User
 	"""
 	
 	
-
-
-
 @ignore
 Scenario: This is just an empty scenario showing usage of @ignore tag
 	* def name = "I do not remember my name"
