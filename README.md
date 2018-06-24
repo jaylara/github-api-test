@@ -1,5 +1,5 @@
 ## GitHub API QA Assignment - Testing Analysis
-Reference: https://developer.github.com/v3/
+Reference: https ://developer.github.com/v3/
 
 ## Problem
 Suppose that you worked with a team that was tasked with implementing this specification.
@@ -40,6 +40,8 @@ Suppose that you worked with a team that was tasked with implementing this speci
 - Try to break the API - _I won't do much of that since this is a GET endpoint and I'm using account as an example_
 - If more endpoints are in scope, and team exists, split up responsibility
 
+#### Extra
+There was no real data to validate against, I just used dummy json from an original request and used it as "DB/mock" data set.
 
 ### What sort of tests would be worth describing or worth automating?
 - Data Validation: Each property accepts valid values and rejects invalid values
